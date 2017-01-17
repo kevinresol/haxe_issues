@@ -1,0 +1,6 @@
+[submodule "haxelib/modular-js"]
+	path = haxelib/modular-js
+	url = https://github.com/explorigin/modular-js.git
+[submodule "haxelib/hxnodejs"]
+	path = haxelib/hxnodejs
+	url = https://github.com/HaxeFoundation/hxnodejs
