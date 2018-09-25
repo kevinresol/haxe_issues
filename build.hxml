@@ -1,4 +1,6 @@
 -cp src
 -main Main
-
--x bin/run
+-dce full
+-js bin/node/index.js
+-lib tink_macro
+# -lib tink_state
