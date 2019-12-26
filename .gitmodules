@@ -1,0 +1,3 @@
+[submodule ".haxelib/tink_testrunner/git"]
+	path = .haxelib/tink_testrunner/git
+	url = https://github.com/haxetink/tink_testrunner
