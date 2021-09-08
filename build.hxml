@@ -1,19 +1,17 @@
 --class-path src
 --jvm bin/main.jar
+--main Main
 
-MyUserStorageProvider
-MyUserStorageProviderFactory
-
---java-lib-extern jar/javax-crypto.jar
---java-lib-extern jar/bcpkix-jdk15on-1.68.jar
---java-lib-extern jar/bcprov-jdk15on-1.68.jar
---java-lib-extern jar/jackson-annotations-2.12.1.jar
---java-lib-extern jar/jackson-core-2.12.1.jar
---java-lib-extern jar/jackson-databind-2.12.1.jar
---java-lib-extern jar/jakarta.activation-1.2.2.jar
---java-lib-extern jar/javax-crypto.jar
---java-lib-extern jar/javax.ws.rs-api-2.1.1.jar
---java-lib-extern jar/jboss-logging-3.4.2.Final.jar
---java-lib-extern jar/keycloak-common-15.0.2.jar
---java-lib-extern jar/keycloak-core-15.0.2.jar
---java-lib-extern jar/keycloak-server-spi-15.0.2.jar
+--java-lib jar/javax-crypto.jar
+--java-lib jar/bcpkix-jdk15on-1.68.jar
+--java-lib jar/bcprov-jdk15on-1.68.jar
+--java-lib jar/jackson-annotations-2.12.1.jar
+--java-lib jar/jackson-core-2.12.1.jar
+--java-lib jar/jackson-databind-2.12.1.jar
+--java-lib jar/jakarta.activation-1.2.2.jar
+--java-lib jar/javax-crypto.jar
+--java-lib jar/javax.ws.rs-api-2.1.1.jar
+--java-lib jar/jboss-logging-3.4.2.Final.jar
+--java-lib jar/keycloak-common-15.0.2.jar
+--java-lib jar/keycloak-core-15.0.2.jar
+--java-lib jar/keycloak-server-spi-15.0.2.jar
