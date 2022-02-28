@@ -1,0 +1,4 @@
+[submodule "submodules/jandex"]
+	path = submodules/jandex
+	url = git@github.com:kevinresol/jandex.git
+	branch = haxe
